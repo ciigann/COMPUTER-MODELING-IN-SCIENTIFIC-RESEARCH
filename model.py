@@ -39,7 +39,7 @@ class SignificantDigitExtractor:
                 if k == i:
                     return char
                 k += 1
-        return "-"
+        return i
 
 class PhysicsModel:
     """
